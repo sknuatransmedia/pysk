@@ -1,4 +1,4 @@
-//
+
 //  AppDelegate.swift
 //  PYTV
 //
@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAnalytics
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
+        FIRApp.configure()
+        
+        
+        var storyboard: UIStoryboard
+        
+        // instantiate the `UIWindow`
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+       
+        if (UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad)
+        {
+            // Ipad
+            
+            storyboard = UIStoryboard(name: "MainiPad", bundle: nil)
+        }
+        else
+        {
+            // Iphone
+            
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+        }
+        
+        
+        self.window!.rootViewController = storyboard.instantiateInitialViewController() as! ViewController
+        
+        
+        
+        self.window!.makeKeyAndVisible()
+        
         return true
     }
 

@@ -12,6 +12,21 @@
 		1870057D1E6E8A6600E8568D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870057B1E6E8A6600E8568D /* Main.storyboard */; };
 		1870057F1E6E8A6700E8568D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1870057E1E6E8A6700E8568D /* Assets.xcassets */; };
 		187005821E6E8A6700E8568D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187005801E6E8A6700E8568D /* LaunchScreen.storyboard */; };
+		1870058F1E6E8B4700E8568D /* pt_pg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870058A1E6E8B4700E8568D /* pt_pg.png */; };
+		187005901E6E8B4700E8568D /* pt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870058B1E6E8B4700E8568D /* pt_logo.png */; };
+		187005911E6E8B4700E8568D /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870058C1E6E8B4700E8568D /* play_btn.png */; };
+		187005921E6E8B4700E8568D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870058D1E6E8B4700E8568D /* back.png */; };
+		187005931E6E8B4700E8568D /* waterf.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870058E1E6E8B4700E8568D /* waterf.png */; };
+		187005971E6E8B6F00E8568D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187005951E6E8B6F00E8568D /* AVFoundation.framework */; };
+		187005981E6E8B6F00E8568D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187005961E6E8B6F00E8568D /* AVKit.framework */; };
+		1870059A1E6E8B7700E8568D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187005991E6E8B7700E8568D /* SystemConfiguration.framework */; };
+		1870059C1E6E8B9300E8568D /* LiveTVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870059B1E6E8B9300E8568D /* LiveTVPlayerViewController.swift */; };
+		187005A01E6E907000E8568D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870059F1E6E907000E8568D /* Reachability.swift */; };
+		187005A61E6E9A8900E8568D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187005A51E6E9A8900E8568D /* Images.xcassets */; };
+		189B05701E6EB70A00F1FB06 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189B056F1E6EB70A00F1FB06 /* MediaPlayer.framework */; };
+		189B05721E6EBBB600F1FB06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189B05711E6EBBB600F1FB06 /* GoogleService-Info.plist */; };
+		189B05741E6EDD1700F1FB06 /* MainiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189B05731E6EDD1700F1FB06 /* MainiPad.storyboard */; };
+		375E8F8A84FA216277FF66FA /* Pods_PYTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE686A82145591B52F6F4377 /* Pods_PYTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,23 @@
 		1870057E1E6E8A6700E8568D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187005811E6E8A6700E8568D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187005831E6E8A6700E8568D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870058A1E6E8B4700E8568D /* pt_pg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pt_pg.png; sourceTree = "<group>"; };
+		1870058B1E6E8B4700E8568D /* pt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pt_logo.png; sourceTree = "<group>"; };
+		1870058C1E6E8B4700E8568D /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_btn.png; sourceTree = "<group>"; };
+		1870058D1E6E8B4700E8568D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1870058E1E6E8B4700E8568D /* waterf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterf.png; sourceTree = "<group>"; };
+		187005951E6E8B6F00E8568D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		187005961E6E8B6F00E8568D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		187005991E6E8B7700E8568D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1870059B1E6E8B9300E8568D /* LiveTVPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTVPlayerViewController.swift; sourceTree = "<group>"; };
+		1870059F1E6E907000E8568D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		187005A51E6E9A8900E8568D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		189B056F1E6EB70A00F1FB06 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		189B05711E6EBBB600F1FB06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		189B05731E6EDD1700F1FB06 /* MainiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainiPad.storyboard; path = ../MainiPad.storyboard; sourceTree = "<group>"; };
+		986A84B1EFF9C6F1C18E09C6 /* Pods-PYTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYTV/Pods-PYTV.debug.xcconfig"; sourceTree = "<group>"; };
+		DE686A82145591B52F6F4377 /* Pods_PYTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6AC6667C8ED653F3D8DB7E /* Pods-PYTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYTV/Pods-PYTV.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189B05701E6EB70A00F1FB06 /* MediaPlayer.framework in Frameworks */,
+				1870059A1E6E8B7700E8568D /* SystemConfiguration.framework in Frameworks */,
+				187005971E6E8B6F00E8568D /* AVFoundation.framework in Frameworks */,
+				187005981E6E8B6F00E8568D /* AVKit.framework in Frameworks */,
+				375E8F8A84FA216277FF66FA /* Pods_PYTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,8 @@
 			children = (
 				187005761E6E8A6600E8568D /* PYTV */,
 				187005751E6E8A6600E8568D /* Products */,
+				187005941E6E8B6F00E8568D /* Frameworks */,
+				F824D2C6B1A9A94D7D00FFCC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,53 @@
 		187005761E6E8A6600E8568D /* PYTV */ = {
 			isa = PBXGroup;
 			children = (
+				187005891E6E8B3000E8568D /* Image */,
 				187005771E6E8A6600E8568D /* AppDelegate.swift */,
 				187005791E6E8A6600E8568D /* ViewController.swift */,
+				1870059B1E6E8B9300E8568D /* LiveTVPlayerViewController.swift */,
+				1870059F1E6E907000E8568D /* Reachability.swift */,
+				189B05731E6EDD1700F1FB06 /* MainiPad.storyboard */,
 				1870057B1E6E8A6600E8568D /* Main.storyboard */,
 				1870057E1E6E8A6700E8568D /* Assets.xcassets */,
+				187005A51E6E9A8900E8568D /* Images.xcassets */,
 				187005801E6E8A6700E8568D /* LaunchScreen.storyboard */,
 				187005831E6E8A6700E8568D /* Info.plist */,
+				189B05711E6EBBB600F1FB06 /* GoogleService-Info.plist */,
 			);
 			path = PYTV;
+			sourceTree = "<group>";
+		};
+		187005891E6E8B3000E8568D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1870058A1E6E8B4700E8568D /* pt_pg.png */,
+				1870058B1E6E8B4700E8568D /* pt_logo.png */,
+				1870058C1E6E8B4700E8568D /* play_btn.png */,
+				1870058D1E6E8B4700E8568D /* back.png */,
+				1870058E1E6E8B4700E8568D /* waterf.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		187005941E6E8B6F00E8568D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189B056F1E6EB70A00F1FB06 /* MediaPlayer.framework */,
+				187005991E6E8B7700E8568D /* SystemConfiguration.framework */,
+				187005951E6E8B6F00E8568D /* AVFoundation.framework */,
+				187005961E6E8B6F00E8568D /* AVKit.framework */,
+				DE686A82145591B52F6F4377 /* Pods_PYTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F824D2C6B1A9A94D7D00FFCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986A84B1EFF9C6F1C18E09C6 /* Pods-PYTV.debug.xcconfig */,
+				EA6AC6667C8ED653F3D8DB7E /* Pods-PYTV.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187005861E6E8A6700E8568D /* Build configuration list for PBXNativeTarget "PYTV" */;
 			buildPhases = (
+				C03ECC5D6BCE3F5A44A9399D /* [CP] Check Pods Manifest.lock */,
 				187005701E6E8A6600E8568D /* Sources */,
 				187005711E6E8A6600E8568D /* Frameworks */,
 				187005721E6E8A6600E8568D /* Resources */,
+				D27A8F97C3593A17935C9BC7 /* [CP] Embed Pods Frameworks */,
+				8DBAF14018EC3615C99FFBF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +177,8 @@
 				TargetAttributes = {
 					187005731E6E8A6600E8568D = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = KHN4YU6N5X;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -123,13 +205,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187005A61E6E9A8900E8568D /* Images.xcassets in Resources */,
 				187005821E6E8A6700E8568D /* LaunchScreen.storyboard in Resources */,
 				1870057F1E6E8A6700E8568D /* Assets.xcassets in Resources */,
+				1870058F1E6E8B4700E8568D /* pt_pg.png in Resources */,
 				1870057D1E6E8A6600E8568D /* Main.storyboard in Resources */,
+				187005921E6E8B4700E8568D /* back.png in Resources */,
+				189B05741E6EDD1700F1FB06 /* MainiPad.storyboard in Resources */,
+				187005911E6E8B4700E8568D /* play_btn.png in Resources */,
+				189B05721E6EBBB600F1FB06 /* GoogleService-Info.plist in Resources */,
+				187005931E6E8B4700E8568D /* waterf.png in Resources */,
+				187005901E6E8B4700E8568D /* pt_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DBAF14018EC3615C99FFBF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYTV/Pods-PYTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03ECC5D6BCE3F5A44A9399D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D27A8F97C3593A17935C9BC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYTV/Pods-PYTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		187005701E6E8A6600E8568D /* Sources */ = {
@@ -138,6 +276,8 @@
 			files = (
 				1870057A1E6E8A6600E8568D /* ViewController.swift in Sources */,
 				187005781E6E8A6600E8568D /* AppDelegate.swift in Sources */,
+				187005A01E6E907000E8568D /* Reachability.swift in Sources */,
+				1870059C1E6E8B9300E8568D /* LiveTVPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +324,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: VINODH RAM R M (KHN4YU6N5X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VINODH RAM R M (KHN4YU6N5X)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C68F7UC3Z7;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -203,9 +345,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "cdd28bd6-be88-4cbb-8f6c-74783f7d52b8";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -234,9 +377,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: VINODH RAM R M (KHN4YU6N5X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VINODH RAM R M (KHN4YU6N5X)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C68F7UC3Z7;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -247,8 +392,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "cdd28bd6-be88-4cbb-8f6c-74783f7d52b8";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -258,24 +404,34 @@
 		};
 		187005871E6E8A6700E8568D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986A84B1EFF9C6F1C18E09C6 /* Pods-PYTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHN4YU6N5X;
 				INFOPLIST_FILE = PYTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuatransmedia.asas.PYTV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trpmedia.py;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cdd28bd6-be88-4cbb-8f6c-74783f7d52b8";
+				PROVISIONING_PROFILE_SPECIFIER = "TRP Media";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		187005881E6E8A6700E8568D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6AC6667C8ED653F3D8DB7E /* Pods-PYTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHN4YU6N5X;
 				INFOPLIST_FILE = PYTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuatransmedia.asas.PYTV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trpmedia.py;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cdd28bd6-be88-4cbb-8f6c-74783f7d52b8";
+				PROVISIONING_PROFILE_SPECIFIER = "TRP Media";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +455,7 @@
 				187005881E6E8A6700E8568D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
